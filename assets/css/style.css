@@ -13,11 +13,15 @@ body.dark
   --bg-black-50: #393939;
   --text-black-900: #ffffff;
   --text-black-700: #e9e9e9;
+  scrollbar-color: var(--skin-color)  #393939;
 }
 body
 {
   line-height: 1.5;
   font-size: 16px;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;       
+  scrollbar-color: var(--skin-color) rgb(216, 213, 213);
 }
 *
 {
